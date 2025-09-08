@@ -9,7 +9,7 @@ import joblib
 df = pd.read_csv("diabetes.csv")
 
 # Load trained model
-model = joblib.load("diabetes_model.pkl")
+classifier = joblib.load("diabetes_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.title("🩺 Diabetes Prediction App")
@@ -31,11 +31,12 @@ if st.button("Predict"):
     input_data = np.array([[pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age]])
     input_data_reshaped=input_data.reshape(1,-1)
     std_data=scaler.transform(input_data_reshaped)
-    prediction = model.predict(std_data)
+    prediction = classifier.predict(std_data)
 
     if prediction[0] == 0:
         st.success("✅ The person is unlikely to have Diabetes.")
 
     else:
         st.error("⚠️ The person is likely to have Diabetes.")        
+
 
