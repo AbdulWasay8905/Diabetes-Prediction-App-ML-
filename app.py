@@ -2,15 +2,15 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
+
 
 # Load dataset
 df = pd.read_csv("diabetes.csv")
 
 # Load trained model
-model = pickle.load(open("diabetes_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
-
+model = joblib.load("diabetes_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 st.title("🩺 Diabetes Prediction App")
 
@@ -38,3 +38,4 @@ if st.button("Predict"):
 
     else:
         st.error("⚠️ The person is likely to have Diabetes.")        
+
