@@ -101,8 +101,11 @@ joblib==1.4.2
 
 **Abdul Wasay**
 
-* 🌐 [GitHub](https://github.com/abdulwasay8905)
-* 💼 [LinkedIn](www.linkedin.com/in/abdul-wasay-2a602329b)
+## 📬 Connect with Me  
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-abdulwasay8905)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/abdul-wasay-2a602329b)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wasay8892@gmail.com)
 
 ---
 
