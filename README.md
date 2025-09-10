@@ -1,7 +1,3 @@
-Bilkul 👍 main aapka **README aur detailed banata hoon** taake woh GitHub pe professional lage aur LinkedIn pe share karne layak ho. Yeh updated version hai:
-
----
-
 # 🩺 Diabetes Prediction App
 
 This is a **Machine Learning-based web application** built using **Streamlit** that predicts whether a person is likely to have **diabetes** or not.
@@ -97,7 +93,7 @@ joblib==1.4.2
 
 ## 📸 Demo
 
-👉 (Here you can add a **screenshot or GIF** of your running app – makes repo attractive!)
+![Diabetes Prediction App Screenshot](ScreenShot.png)
 
 ---
 
